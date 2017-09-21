@@ -1,1 +1,25 @@
 // Specific CSS for your home-page
+
+.banner {
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.banner h1 {
+  color: black;
+  font-size: 28px;
+}
+.banner p {
+  color: black;
+  font-size: 20px;
+
+}
+.banner-content {
+  background: rgba(71, 73, 74, 0.6);
+  box-shadow: 2px 2px #333333;
+
+}
