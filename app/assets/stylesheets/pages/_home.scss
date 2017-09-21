@@ -2,12 +2,15 @@
 
 .banner {
   text-align: center;
-  height: 100vh;
+  height: calc(100vh - 60px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  border: 2px solid white;
 }
 .banner h1 {
   color: white;
