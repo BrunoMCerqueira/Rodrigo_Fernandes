@@ -3,7 +3,7 @@
 .banner {
   padding: 80px;
   text-align: center;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 65px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -11,6 +11,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  margin-bottom: 0;
 
 }
 .banner h1 {
