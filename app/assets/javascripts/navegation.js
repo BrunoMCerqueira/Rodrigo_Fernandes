@@ -1,14 +1,13 @@
 $(document).ready(function() {
 
-  $('.contact').click(function () {
-      //if you hard code, then use console
-      //.log to determine when you want the
-      //nav bar to stick.
-    if ($(window).scrollTop() > 80) {
-      $('.nav-index').addClass('navbar-fixed');
-    }
-    if ($(window).scrollTop() < 80) {
-      $('.nav-index').removeClass('navbar-fixed');
-    }
+  $('.navbar-basic').hover(function () {
+
+    $('.navbar-basic').addClass('navbar-main');
+    $('.navbar-basic').removeClass('hidden-menu');
+    $('.navbar-basic').removeClass('navbar-main-hidden');
+  }, function(){
+    $('.navbar-basic').addClass('navbar-main-hidden');
+    $('.navbar-basic').addClass('hidden-menu');
+    $('.navbar-basic').removeClass('navbar-main');
   });
 });
