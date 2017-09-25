@@ -7,4 +7,5 @@ class PagesController < ApplicationController
 
   def institucional
   end
+
 end
