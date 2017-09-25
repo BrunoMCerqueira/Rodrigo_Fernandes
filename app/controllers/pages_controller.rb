@@ -4,4 +4,8 @@ class PagesController < ApplicationController
 
   def servicos
   end
+
+  def institucional
+  end
+
 end
