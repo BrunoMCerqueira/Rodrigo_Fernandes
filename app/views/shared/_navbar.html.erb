@@ -4,16 +4,22 @@
     <!-- Right Navigation -->
     <ul class="navbar-right">
       <li href="" class="navbar-item navbar-link">
+        <%= link_to root_path do %>
         <i class="fa fa-home" aria-hidden="true"></i>
         <span class="icon-name">Página inicial</span>
+        <% end %>
       </li>
       <li href="" class="navbar-item navbar-link">
+        <%= link_to servicos_path do %>
         <i class="fa fa-gavel" aria-hidden="true"></i>
         <span class="icon-name">Serviços</span>
+        <% end %>
       </li>
       <li href="" class="navbar-item navbar-link">
+        <%= link_to institucional_path do %>
         <i class="fa fa-university" aria-hidden="true"></i>
         <span class="icon-name">Sobre</span>
+        <% end %>
       </li>
       <li href="" class="navbar-item navbar-link">
         <i class="fa fa-envelope-o" aria-hidden="true"></i>
@@ -28,9 +34,9 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
-        <li><a href="#">Página inicial</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Sobre</a></li>
+        <li><%= link_to "Página inicial", root_path %></li>
+        <li><%= link_to "Serviços", servicos_path %></li>
+        <li><%= link_to "Sobre", servicos_path %></li>
         <div role="separator" class="divider"></div>
         <li><a href="#">Contato</a></li>
       </ul>
