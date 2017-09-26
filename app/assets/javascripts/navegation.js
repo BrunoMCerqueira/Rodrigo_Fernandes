@@ -10,4 +10,5 @@ $(document).ready(function() {
     $('.navbar-basic').addClass('hidden-menu');
     $('.navbar-basic').removeClass('navbar-main');
   });
+
 });
