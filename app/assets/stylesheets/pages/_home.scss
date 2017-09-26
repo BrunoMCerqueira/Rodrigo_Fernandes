@@ -1,8 +1,7 @@
 // Specific CSS for your home-page
 .banner {
-  padding: 80px;
   text-align: center;
-  min-height: calc(100vh - 65px);
+  min-height: calc(100vh - 50px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -23,6 +22,7 @@
   font-size: 20px;
 }
 .banner-content {
+  margin: 80px 20px;
   padding: 15px;
   background: rgba(71, 73, 74, 0.6);
   box-shadow: 2px 2px #333333;
