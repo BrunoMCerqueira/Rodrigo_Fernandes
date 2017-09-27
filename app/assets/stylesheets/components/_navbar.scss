@@ -97,16 +97,27 @@
   padding: 0 10px;
 }
 
-/* Navbar link */
 
 
 
 ////////////// FIM DO MENU SLIDE ////////////////////
 
+.cel-menu {
+
+}
+.dropdown-menu {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+}
+
+
+
 .dropdown-toggle {
   position: fixed;
   top: 15px;
   right: 20px;
+  color: #FF5300;
 }
 
 a:active, a:focus {
