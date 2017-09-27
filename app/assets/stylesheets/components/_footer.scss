@@ -1,9 +1,8 @@
 .global-footer {
   text-align: center;
-  padding-top: 0px;
+  padding-top: 5px;
   position: fixed;
   bottom: 0px;
-  padding-top: 10px;
   width: 100%;
   background-color: #020311;
   color: white;
@@ -28,4 +27,19 @@
   -moz-box-shadow:0 0 20px rgba(0,0,0,0.3);
   box-shadow:0 0 20px rgba(0,0,0,0.3);
 
+}
+
+.footer-information {
+  padding: 5px;
+}
+
+.btn-contact {
+  a {
+  text-decoration: none;
+  }
+}
+
+.contact {
+  cursor: pointer;
+  text-decoration: none;
 }
