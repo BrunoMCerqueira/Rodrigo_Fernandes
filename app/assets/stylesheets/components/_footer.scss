@@ -1,4 +1,6 @@
 .global-footer {
+  display: block;
+  font-family: 'Playfair Display', serif;
   text-align: center;
   padding-top: 5px;
   position: fixed;
@@ -12,7 +14,7 @@
   -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
   -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
   box-shadow:0 0 20px rgba(0,0,0,0.8);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .assignature {
@@ -33,13 +35,22 @@
   padding: 5px;
 }
 
-.btn-contact {
-  a {
-  text-decoration: none;
-  }
-}
-
-.contact {
+#contact {
+  display: block;
+  background-color: #FF5300;
+  padding: 5px;
+  border-radius: 2px;
+  -webkit-box-shadow:1px 1px 5px rgba(0,0,0,1);
+  -moz-box-shadow:1px 1px 5px rgba(0,0,0,1);
+  box-shadow:1px 1px 5px rgba(0,0,0,1);
   cursor: pointer;
   text-decoration: none;
+  font-size: 16px;
+  color: white;
+  line-height: 20px;
+  margin: 0 10px 5px 10px;
+  &:hover {
+    color: #FF5300;
+    background-color: white;
+  }
 }

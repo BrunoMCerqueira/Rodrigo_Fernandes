@@ -6,7 +6,7 @@
   cursor: pointer;
   background-color: #000;
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 16px;
   margin: 7px 5px;
   max-width: 315px;
@@ -80,6 +80,7 @@
 }
 
 .card-work figcaption {
+
   top: 50%;
   left: 50%;
   position: absolute;
@@ -158,12 +159,16 @@
   background-color: #212121;
   text-align: center;
   padding-top: 15px;
-  min-height: calc(100vh - 60px);
-  padding-bottom: 65px;
+  min-height: calc(100vh - 80px);
+  padding-bottom: 80px;
   h1 {
     margin: 0px 50px;
   }
   color: white;
+  p {
+    padding: 5px;
+    font-family: 'Playfair Display', serif;
+  }
 }
 
 // Mobile navegation
@@ -176,28 +181,22 @@
   margin: 10px;
 }
 
-.work-menu-link {
-  border: solid 1px gray;
-  a {
+a {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    cursor: pointer;
+  .work-menu-link {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    border: solid 1px gray;
+    padding: 12px 0;
+  }
+  cursor: pointer;
+  text-decoration: none;
+  color: #212121;
+  font-size: 20px;
+  font-weight: lighter;
+  &:hover {
+    color: #FF5300;
     text-decoration: none;
-    color: #212121;
-    font-size: 25px;
-    font-weight: lighter;
-    &:hover {
-      color: #FF5300;
-    }
-
-    .text-menu {
-      font-size: 20px;
-    }
   }
 }
 

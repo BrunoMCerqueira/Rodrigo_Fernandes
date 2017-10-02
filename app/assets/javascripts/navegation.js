@@ -11,4 +11,8 @@ $(document).ready(function() {
     $('.navbar-basic').removeClass('navbar-main');
   });
 
+
+  $('#burger').on("click", function(){
+    $('#submenu').toggleClass("open");
+  });
 });

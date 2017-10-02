@@ -1,15 +1,30 @@
 <div class="global-footer">
-  <div class="container footer-information ">
+  <div class="container footer-information hidden-sm hidden-xs">
     <div class="row">
       <div class="col-xs-6 col-sm-4">
         <p><i class="fa fa-phone" aria-hidden="true"></i> (11) 4116-6256 </p>
       </div>
       <div class="col-xs-6 col-sm-4">
-        <a data-toggle="modal" data-target="#email" class="contact">
+        <a data-toggle="modal" data-target="#email" id="contact">
           Entre em contato!
         </a>
       </div>
       <div class="col-xs-12 col-sm-4">
+        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> rodrigo.assalve@adv.oabsp.org.br</p>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-information hidden-md hidden-lg">
+    <div class="row">
+      <a data-toggle="modal" data-target="#email" id="contact">
+        Entre em contato!
+      </a>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <p><i class="fa fa-phone" aria-hidden="true"></i> (11) 4116-6256 </p>
+      </div>
+      <div class="col-xs-12 col-sm-6">
         <p><i class="fa fa-envelope-o" aria-hidden="true"></i> rodrigo.assalve@adv.oabsp.org.br</p>
       </div>
     </div>
@@ -20,3 +35,4 @@
 </div>
 
 <%= render "shared/email" %>
+
